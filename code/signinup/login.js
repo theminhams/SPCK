@@ -17,7 +17,7 @@ buttonInput.addEventListener('click',
             const user = userCredential.user;
             // ...
             alert("Đăng nhập thành công")
-            window.location.href = "/project/code/index.html"
+            window.location.href = "/project/index.html"
         })
         .catch((error) => {
             const errorCode = error.code;
