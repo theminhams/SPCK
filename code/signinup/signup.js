@@ -50,6 +50,7 @@ const xuligoogle = (e) => {
     // ...
     alert ("Xin chào" + user.displayName + "đến với trang web")
     localStorage.setItem("name", user.displayName)
+    window.location.href = "/project/index.html"
   }).catch((error) => {
     // Handle Errors here.
     const errorCode = error.code;
