@@ -143,10 +143,10 @@ body::-webkit-scrollbar {
     flex-direction: column;
     row-gap: 5px;
 }
-.info{
+/* .info{
     outline: none;
     border: 1px solid green;
-}
+} */
 .footer__btn{
     display: flex;
     justify-self: center;

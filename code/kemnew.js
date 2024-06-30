@@ -19,7 +19,7 @@ console.log(product)
     <!-- Navber -->
     <div class="nav">
         <ul class="nav-list">
-            <li class="nav-item"><a href="/project/code/kem.html">Trang chủ</a></li>
+            <li class="nav-item"><a href="/project/index.html">Trang chủ</a></li>
             <li class="nav-item"><a href="/project/code/intro.html">Giới thiệu</a></li>
             <li class="nav-item">Nhà sáng lập</li>
         </ul>
@@ -71,6 +71,41 @@ console.log(product)
         </div>
         <i class="content__quote">${product.sou}</i>
     </div>
+    <!-- Comment -->
+     <div class="social-comment">
+     </div>
+     <form action="" class="comment-container">
+        <div class="comment-filling">
+            <label for="username">Hãy nhập username/email của bạn vào</label>
+            <input type="text" name="username" id="username" placeholder="Hãy nhập username/email của bạn vào">
+            <label for="content">Hãy nhập comment của bạn vào</label>
+            <input type="text" name="content" id="content" placeholder="Hãy nhập comment của bạn vào">
+            <button class="btn">Gửi bình luận</button>
+            <label for="">Hãy đánh giá bài viết của chúng tôi</label>
+        </div>
+        <div class="rating">
+            <input type="radio" id="star-1" name="star-radio" value="star-1">
+            <label for="star-1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+            </label>
+            <input type="radio" id="star-2" name="star-radio" value="star-1">
+            <label for="star-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+            </label>
+            <input type="radio" id="star-3" name="star-radio" value="star-1">
+            <label for="star-3">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+            </label>
+            <input type="radio" id="star-4" name="star-radio" value="star-1">
+            <label for="star-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+            </label>
+            <input type="radio" id="star-5" name="star-radio" value="star-1">
+            <label for="star-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+            </label>
+          </div>
+     </form>
     <!-- Linking -->
     <div class="link">
         <div class="link__content">
@@ -115,5 +150,6 @@ console.log(product)
         <div class="copyright">
             COPYRIGHT © 2023-2026 BY THE MINH
         </div>
+         <script src="./comment.js"></script>
                 `;
   });

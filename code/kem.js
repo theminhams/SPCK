@@ -48,7 +48,7 @@ fetch("https://65859ecf022766bcb8c90509.mockapi.io/services", {
           })
           .then((product) => {
             // Do something with the list of tasks
-            window.location.href = `./kemdetail.html?id=${task.id}`;
+            window.location.href = `code/kemdetail.html?id=${task.id}`;
           })
           .catch((error) => {
             // handle error

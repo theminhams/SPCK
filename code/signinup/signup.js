@@ -20,11 +20,12 @@ buttonInput.addEventListener('click',
             e.preventDefault();
             createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
-                // Signed up 
+                // Signed up  
                 const user = userCredential.user;
                 // ...
                 console.log(user)
                 alert ("Xin chào chào mừng " + email + " đến với trang web")
+                localStorage.setItem("name", email)
                 window.location.href = "/project/code/signinup/login.html"
             })
             .catch((error) => {
@@ -48,6 +49,7 @@ const xuligoogle = (e) => {
     // IdP data available using getAdditionalUserInfo(result)
     // ...
     alert ("Xin chào" + user.displayName + "đến với trang web")
+    localStorage.setItem("name", user.displayName)
   }).catch((error) => {
     // Handle Errors here.
     const errorCode = error.code;

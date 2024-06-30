@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
     <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="comment.css">
     <!-- Site Icons --> 
 	<link rel="shortcut icon" href="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2020/01/13131932/15.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2020/01/13131932/15.png">
@@ -67,7 +68,42 @@
             Các phản ứng hóa học có thể dẫn đến sự hình thành hoặc phân ly của các phân tử - tức là các phân tử sẽ bị phân tách thành hai hoặc nhiều phân tử nhỏ hơn; hoặc sắp xếp lại các nguyên tử trong hoặc ngoài các phân tử. Phản ứng hóa học thường liên quan đến việc tạo ra hoặc phá vỡ các liên kết hóa học. Các phản ứng thường gặp là oxy hóa-khử, phản ứng tách, trung hoà acid-base và tái sắp xếp nguyên tử.
         </div>
         <i class="content__quote">Nguồn: Wikipedia</i>
+        <i class="content__quote">Tác giả: theminhams</i>
     </div>
+    <div class="social-comment">
+    </div>
+    <form action="" class="comment-container">
+       <div class="comment-filling">
+           <label for="username">Hãy nhập username/email của bạn vào</label>
+           <input type="text" name="username" id="username" placeholder="Hãy nhập username/email của bạn vào">
+           <label for="content">Hãy nhập comment của bạn vào</label>
+           <input type="text" name="content" id="content" placeholder="Hãy nhập comment của bạn vào">
+           <button class="btn">Gửi bình luận</button>
+           <label for="">Hãy đánh giá bài viết của chúng tôi</label>
+       </div>
+       <div class="rating">
+           <input type="radio" id="star-1" name="star-radio" value="star-1">
+           <label for="star-1">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+           </label>
+           <input type="radio" id="star-2" name="star-radio" value="star-1">
+           <label for="star-2">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+           </label>
+           <input type="radio" id="star-3" name="star-radio" value="star-1">
+           <label for="star-3">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+           </label>
+           <input type="radio" id="star-4" name="star-radio" value="star-1">
+           <label for="star-4">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+           </label>
+           <input type="radio" id="star-5" name="star-radio" value="star-1">
+           <label for="star-5">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+           </label>
+         </div>
+    </form>
     <!-- Linking -->
     <div class="link">
         <div class="link__content">
@@ -76,7 +112,7 @@
                 <h4>Động học P2</h4>
                 <p>Phương pháp nồng độ đầu xác định bậc</p>
             </div>
-        </div>
+        </div> 
         <div class="link__content">
             <img  class="link__img" src="/project/anh/a11.jpg" alt="">
             <div class="link__des">
@@ -112,5 +148,6 @@
         <div class="copyright">
             COPYRIGHT © 2023-2026 BY THE MINH
         </div>
+        <script src="./comment.js"></script>
 </body>
 </html>
